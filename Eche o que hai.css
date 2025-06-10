@@ -1,0 +1,124 @@
+body{
+    background-color:grey;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+        #gif-encabezado{
+            background-color: rgb(228, 54, 54);
+            text-align: center;
+            display: flex; /* Alinea las imágenes horizontalmente */
+        }
+
+        #Naruto{
+            width: 510px;
+            height: 200px;
+        }
+
+        #Goku{
+            width: 510px;
+            height: 200px;
+            transform: scaleX(-1);
+        }
+
+        #logo{
+            width: 450px;
+            height: 200px;
+        }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+            h4{
+                font-family:'Times New Roman', Times, serif;
+                margin-left: 10px;
+            }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                h3{
+                    margin-top: 10%;
+                    text-align: center;
+                }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                    table{
+                        width: 70%; /*esto es para regular el ancho de la tabla */
+                        margin:auto;
+                        background-color: burlywood;;
+                        border-collapse: collapse;
+                        table-layout: fixed;
+                    }
+
+                    td,th{
+                        width: 33.33%;
+                        text-align: center;
+                        border: solid black;
+                    }
+
+                    th{
+                        font-size: 20px;
+                        font-weight: bold;
+                        background-color: brown;
+                        color:black;
+                    }
+
+                    td{
+                        font-size: 20px;
+                    }
+
+                    .foto-comida{
+                        width: 200px;
+                    }
+
+                    #info{
+                        font-style:italic;
+                    }
+
+                    #ig{
+                        width: 40px;
+                    }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                        #left-margin, #right-margin {
+                            position: absolute; /* Fija los márgenes para que no se muevan al hacer scroll */
+                            top: 600px; /* Alinea los márgenes con el borde superior de la página */
+                            height: 100%; /* Asegura que ocupen toda la altura de la ventana */
+                            z-index: -1; /* Coloca las imágenes detrás del contenido principal */
+                        }
+
+                        #left-margin {
+                            left: 10PX; /* Posiciona el margen izquierdo */
+                        }
+
+                        #right-margin {
+                            right: 10PX; /* Posiciona el margen derecho */
+                        }
+
+                        #left-margin img, #right-margin img {
+                            width: 210px;
+                            height: 100%; /* Asegura que las imágenes llenen todo el margen verticalmente */
+                            object-fit: cover; /* Ajusta la imagen para cubrir el área sin deformarse */
+                        }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+                            #mapa-text{
+                                margin-top: 20%;
+                                text-align: left;
+                                margin-left: 10px;
+                            }
+
+                            #mapa{
+                                margin-left: 110px;
+                                width: 100px;
+                            }
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
